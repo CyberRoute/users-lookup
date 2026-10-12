@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+passwd_contents=$(cat /etc/passwd)
+echo "$passwd_contents"
+echo "The users DB has been dumped, all good!"
